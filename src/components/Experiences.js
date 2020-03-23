@@ -69,6 +69,7 @@ export default function Experiences() {
             </Card>
           </div>
         </div>
+        <div className="spacer"></div>
       </div>
     </div>
   );
