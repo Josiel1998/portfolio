@@ -17,7 +17,10 @@ export default function Projects() {
         <div className="container">
           <div className="row mb-0 justify-content-md-center sm-switch-order">
             <div className="col-md-4 d-sm-flex align-items-center mb-0">
-              <a className="project-info" href="/portfolio/#/project/alexaintegration">
+              <a
+                className="project-info"
+                href="/portfolio/#/project/alexaintegration"
+              >
                 <div className="meta-info">
                   <div className="date-info">2018</div>
                   <div className="name-info">alexaintegration</div>
@@ -47,7 +50,10 @@ export default function Projects() {
           <br />
           <div className="row mb-0 justify-content-md-center sm-switch-order">
             <div className="col-md-4 d-sm-flex align-items-center mb-0">
-              <a className="project-info" href="/portfolio/#/project/avtlanedetection">
+              <a
+                className="project-info"
+                href="/portfolio/#/project/avtlanedetection"
+              >
                 <div className="meta-info">
                   <div className="date-info">2019</div>
                   <div className="name-info">AVT-lane-detection</div>
@@ -71,9 +77,14 @@ export default function Projects() {
           </div>
         </div>
       </section>
-      <br/>
+      <br />
       <center>
-        <div><h5>Interested in working together? Lets <a href="/portfolio/#/chat">connect</a></h5></div>
+        <div>
+          <h5>
+            Interested in working together? Lets{" "}
+            <a href="/portfolio/#/chat">connect</a>
+          </h5>
+        </div>
       </center>
       <div className="spacer"></div>
     </div>

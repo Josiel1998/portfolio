@@ -25,9 +25,15 @@ export default function Experiences() {
                   United Parcel Service
                 </Card.Subtitle>
                 <Card.Text>
-                Automated multiple existing internal processes through development to maximize the efficiency of process time. 
+                  Automated multiple existing internal processes through
+                  development to maximize the efficiency of process time.
                 </Card.Text>
-                <Card.Link className="heading-block" href="/portfolio/#/experience/ups_intern">More Info</Card.Link>
+                <Card.Link
+                  className="heading-block"
+                  href="/portfolio/#/experience/ups_intern"
+                >
+                  More Info
+                </Card.Link>
               </Card.Body>
             </Card>
           </div>
@@ -44,9 +50,16 @@ export default function Experiences() {
                   United Parcel Service
                 </Card.Subtitle>
                 <Card.Text>
-                Reported, audited, contrasted and manipulated data into information via reports, business cases, and visualizations for decision-making.
+                  Reported, audited, contrasted and manipulated data into
+                  information via reports, business cases, and visualizations
+                  for decision-making.
                 </Card.Text>
-                <Card.Link className="heading-block" href="/portfolio/#/experience/ups_wfp">More Info</Card.Link>
+                <Card.Link
+                  className="heading-block"
+                  href="/portfolio/#/experience/ups_wfp"
+                >
+                  More Info
+                </Card.Link>
               </Card.Body>
             </Card>
           </div>
@@ -62,9 +75,7 @@ export default function Experiences() {
                 <Card.Subtitle className="mb-2 text-muted">
                   Pfizer Digital
                 </Card.Subtitle>
-                <Card.Text>
-                  More information coming soon...
-                </Card.Text>
+                <Card.Text>More information coming soon...</Card.Text>
               </Card.Body>
             </Card>
           </div>

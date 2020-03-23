@@ -8,18 +8,26 @@ export default function Footer() {
     <div className="d-flex justify-content-center footer">
       <ul class="nav nav-pills">
         <li class="nav-item">
-          <a class="nav-link footer_item" target="_blank" href="https://linkedin.com/in/josieldelgadillo">
-            <FontAwesomeIcon icon={faLinkedinIn} size="lg"/>
+          <a
+            class="nav-link footer_item"
+            target="_blank"
+            href="https://linkedin.com/in/josieldelgadillo"
+          >
+            <FontAwesomeIcon icon={faLinkedinIn} size="lg" />
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link footer_item" target="_blank"  href="https://github.com/Josiel1998/">
-          <FontAwesomeIcon icon={faGithub} size="lg"/>
+          <a
+            class="nav-link footer_item"
+            target="_blank"
+            href="https://github.com/Josiel1998/"
+          >
+            <FontAwesomeIcon icon={faGithub} size="lg" />
           </a>
         </li>
         <li class="nav-item">
           <a class="nav-link footer_item" href="/portfolio/#/chat">
-          <FontAwesomeIcon icon={faComment} size="lg"/>
+            <FontAwesomeIcon icon={faComment} size="lg" />
           </a>
         </li>
       </ul>

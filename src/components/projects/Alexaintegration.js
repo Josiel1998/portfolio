@@ -1,5 +1,4 @@
 import React from "react";
-import { Breadcrumb, BreadcrumbItem } from "react-bootstrap";
 import structure from "../../images/Structure.png";
 
 export default function alexaintegration() {
@@ -69,9 +68,9 @@ export default function alexaintegration() {
             <div>
               <strong>Tech specs</strong>
               <br />
-              <span class="badge badge-pill badge-primary">Windows OS</span> 
+              <span class="badge badge-pill badge-primary">Windows OS</span>
               <span class="badge badge-pill badge-primary">Mac OS</span>
-              <span class="badge badge-pill badge-primary">Java</span> 
+              <span class="badge badge-pill badge-primary">Java</span>
               <span class="badge badge-pill badge-primary">Powershell</span>
               <span class="badge badge-pill badge-primary">Bash</span>
               <span class="badge badge-pill badge-primary">IFTTT</span>
@@ -89,14 +88,24 @@ export default function alexaintegration() {
               <br />
               MLG Hackathon
             </div>
-            <br/>
+            <br />
             <div>
               <strong>Source Code</strong>
               <br />
-              <a href="https://github.com/nsalomonb/AlexaIntegration/tree/master/Amazon%20Alexa%20Control%20Files" target="_blank">Original, 2018</a>
-              <br/>
-              <a href="https://github.com/Josiel1998/AlexaIntegration" target="_blank">Redesign, 2020</a>
-              <br/>
+              <a
+                href="https://github.com/nsalomonb/AlexaIntegration/tree/master/Amazon%20Alexa%20Control%20Files"
+                target="_blank"
+              >
+                Original, 2018
+              </a>
+              <br />
+              <a
+                href="https://github.com/Josiel1998/AlexaIntegration"
+                target="_blank"
+              >
+                Redesign, 2020
+              </a>
+              <br />
             </div>
           </div>
         </div>

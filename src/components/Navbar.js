@@ -3,7 +3,7 @@ import "../App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 
-///portfolio/# is added to href path due to production routing. 
+///portfolio/# is added to href path due to production routing.
 
 function Navigation() {
   return (

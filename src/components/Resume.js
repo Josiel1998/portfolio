@@ -12,7 +12,14 @@ export default function Resume() {
       <br />
       <hr />
       <div className="container">
-      <iframe src={Res} className="resx2" width="100%" height="800px" allowfullscreen="" frameborder="0"></iframe>
+        <iframe
+          src={Res}
+          className="resx2"
+          width="100%"
+          height="800px"
+          allowfullscreen=""
+          frameborder="0"
+        ></iframe>
       </div>
     </div>
   );

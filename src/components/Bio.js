@@ -11,9 +11,10 @@ export default function Bio() {
       <br />
       <hr />
       <div>
-        Hello, I am a South Florida based developer aspiring for a role in Software Engineering with interests in cybersecurity and machine learning.
-        
+        Hello, I am a South Florida based developer aspiring for a role in
+        Software Engineering with interests in cybersecurity and machine
+        learning.
       </div>
-      </div>
+    </div>
   );
 }

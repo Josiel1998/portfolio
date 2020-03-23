@@ -1,6 +1,5 @@
 import React from "react";
-import emptyState from "../images/emptyState/3081672.jpg"
-import { Row, Col } from "react-bootstrap"
+import emptyState from "../images/emptyState/3081672.jpg";
 
 export default function Blog() {
   return (
@@ -13,18 +12,28 @@ export default function Blog() {
       <br />
       <hr />
       <div className="container">
-      <h3 style={{textAlign:"center"}} className="intro-sub">Ooops, still hard at work. Please visit at a later time in the the future.</h3>
+        <h3 style={{ textAlign: "center" }} className="intro-sub">
+          Ooops, still hard at work. Please visit at a later time in the the
+          future.
+        </h3>
 
-        <img 
-        src={emptyState}
-        className="img-fluid"
-        max-width="800px"
-        height="800px"
+        <img
+          src={emptyState}
+          className="img-fluid"
+          max-width="800px"
+          height="800px"
         />
-      
-      <a style={{}} href="https://www.freepik.com/free-photos-vectors/business" target="_blank"> Image credits by pikisuperstar</a>
-            </div>
-      <div className="spacer"></div>
+
+        <a
+          style={{}}
+          href="https://www.freepik.com/free-photos-vectors/business"
+          target="_blank"
+        >
+          {" "}
+          Image credits by pikisuperstar
+        </a>
       </div>
+      <div className="spacer"></div>
+    </div>
   );
 }

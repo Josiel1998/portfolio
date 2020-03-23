@@ -1,11 +1,12 @@
 import React from "react";
-import Home from './Home';
+import Home from "./Home";
 
 export default function Index() {
   return (
-<div>
-    <Home/>
-    <br/><br/>
-</div>
+    <div>
+      <Home />
+      <br />
+      <br />
+    </div>
   );
 }
