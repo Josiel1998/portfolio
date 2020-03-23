@@ -17,7 +17,7 @@ export default function AVTLaneDetecton() {
           </a>
         </li>
         <li class="breadcrumb-item">
-          <a href="/myapp/#//projects">Projects</a>
+          <a href="/myapp/#/projects">Projects</a>
         </li>
         <li class="breadcrumb-item active" aria-current="page">
           <span class="active">avt lane detection</span>
