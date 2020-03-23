@@ -12,12 +12,12 @@ export default function UPS_BPI() {
       <br />
       <ol class="breadcrumb breadcrumb-sty">
         <li class="breadcrumb-item">
-          <a href="/" role="button">
+          <a href="/myapp/#/" role="button">
             Home
           </a>
         </li>
         <li class="breadcrumb-item">
-          <a href="/experiences">Experiences</a>
+          <a href="/myapp/#/experiences">Experiences</a>
         </li>
         <li class="breadcrumb-item active" aria-current="page">
           <span class="active">BPI Intern</span>
