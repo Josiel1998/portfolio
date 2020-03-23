@@ -19,21 +19,21 @@ import Index from "./components/Index"
 
 export default function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div>
         <Navigation />
         <div className="">
           <Switch>
-            <Route path="/myapp/experiences" component={Exp} />
-            <Route path="/myapp/experience/ups_intern" component={bpii} />
-            <Route path="/myapp/experience/ups_wfp" component={wfp} />
-            <Route path="/myapp/projects" component={Projects} />
-            <Route path="/myapp/project/alexaintegration" component={alexainegration}  exact/>
-            <Route path="/myapp/project/avtlanedetection" component={avtlanedetection}  exact/>
-            <Route path="/myapp/" component={Index} exact />
-            <Route path="/myapp/resume" component={Resume} />
-            <Route path="/myapp/blog" component={Blog} />
-            <Route path="/myapp/chat" component={connection} />
+            <Route path="/experiences" component={Exp} />
+            <Route path="/experience/ups_intern" component={bpii} />
+            <Route path="/experience/ups_wfp" component={wfp} />
+            <Route path="/projects" component={Projects} />
+            <Route path="/project/alexaintegration" component={alexainegration}  exact/>
+            <Route path="/project/avtlanedetection" component={avtlanedetection}  exact/>
+            <Route path="/" component={Index} exact />
+            <Route path="/resume" component={Resume} />
+            <Route path="/blog" component={Blog} />
+            <Route path="/chat" component={connection} />
           </Switch>
         </div>
         <Footer/>
