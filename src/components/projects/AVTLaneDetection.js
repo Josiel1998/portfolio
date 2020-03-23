@@ -12,12 +12,12 @@ export default function AVTLaneDetecton() {
       <br />
       <ol class="breadcrumb breadcrumb-sty">
         <li class="breadcrumb-item">
-          <a href="/myapp/#/" role="button">
+          <a href="/portfolio/#/" role="button">
             Home
           </a>
         </li>
         <li class="breadcrumb-item">
-          <a href="/myapp/#/projects">Projects</a>
+          <a href="/portfolio/#/projects">Projects</a>
         </li>
         <li class="breadcrumb-item active" aria-current="page">
           <span class="active">avt lane detection</span>
