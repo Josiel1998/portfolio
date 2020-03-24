@@ -26,7 +26,7 @@ export default function Footer() {
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link footer_item" href="/portfolio/#/chat">
+          <a class="nav-link footer_item" href="/#/chat">
             <FontAwesomeIcon icon={faComment} size="lg" />
           </a>
         </li>

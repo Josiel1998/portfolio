@@ -30,7 +30,7 @@ export default function Experiences() {
                 </Card.Text>
                 <Card.Link
                   className="heading-block"
-                  href="/portfolio/#/experience/ups_intern"
+                  href="/#/experience/ups_intern"
                 >
                   More Info
                 </Card.Link>
@@ -56,7 +56,7 @@ export default function Experiences() {
                 </Card.Text>
                 <Card.Link
                   className="heading-block"
-                  href="/portfolio/#/experience/ups_wfp"
+                  href="/#/experience/ups_wfp"
                 >
                   More Info
                 </Card.Link>
