@@ -22,7 +22,7 @@ export default function Experiences() {
                   Jan. 2018 - Aug. 2018
                 </Card.Subtitle>
                 <Card.Subtitle className="mb-2 text-muted">
-                  United Parcel Service
+                  <a className="mb-2 text-muted" target="_blank" href="https://www.ups.com/us/en/Home.page?">United Parcel Service</a>
                 </Card.Subtitle>
                 <Card.Text>
                   Automated multiple existing internal processes through
@@ -47,7 +47,7 @@ export default function Experiences() {
                   Aug. 2018 - Sep. 2019
                 </Card.Subtitle>
                 <Card.Subtitle className="mb-2 text-muted">
-                  United Parcel Service
+                <a className="mb-2 text-muted" target="_blank" href="https://www.ups.com/us/en/Home.page?">United Parcel Service</a>
                 </Card.Subtitle>
                 <Card.Text>
                   Reported, audited, contrasted and manipulated data into
@@ -67,15 +67,18 @@ export default function Experiences() {
             {" "}
             <Card style={{ width: "20rem", border: "0px" }}>
               <Card.Body>
-                <Card.Title>Intern</Card.Title> <br />
+                <Card.Title>Salesforce Developer Intern</Card.Title> <br />
                 <br />
                 <Card.Subtitle className="mb-2 text-muted">
                   Jun. 2020 - Sept. 2020
                 </Card.Subtitle>
                 <Card.Subtitle className="mb-2 text-muted">
-                  Pfizer Digital
+                <a className="mb-2 text-muted" target="_blank" href="https://www.pfizer.com/">United Parcel Service</a>
                 </Card.Subtitle>
-                <Card.Text>More information coming soon...</Card.Text>
+                <Card.Text>Responisble for creating a global notification and communication portal for 
+                  Pfizer’s Veeva CRM and Salesforce.com platforms modeled after trust.veeva.com, 
+                  trust.salesforce.com and Pfizer’s Global Command Center communications
+</Card.Text>
               </Card.Body>
             </Card>
           </div>
