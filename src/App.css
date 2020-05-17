@@ -230,6 +230,11 @@ strong{
   width: 20%;
 }
 
+.header{
+  width: 100%;
+  height: 300px;
+}
+
 
 @keyframes App-logo-spin {
   from {

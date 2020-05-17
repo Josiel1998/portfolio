@@ -1,3 +1,4 @@
+// BUILD: npm run deploy 
 import React from "react";
 import "./App.css";
 import "aos/dist/aos.css";
@@ -15,6 +16,7 @@ import Blog from "./components/Blog";
 import Footer from "./components/Footer";
 import connection from "./components/Connect";
 import Index from "./components/Index";
+import template from "./components/blogs/template"
 
 export default function App() {
   return (
@@ -35,6 +37,11 @@ export default function App() {
             <Route
               path="/project/avtlanedetection"
               component={avtlanedetection}
+              exact
+            />
+            <Route
+              path="/blog/template"
+              component={template}
               exact
             />
             <Route path="/" component={Index} exact />
