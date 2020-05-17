@@ -2,7 +2,7 @@ This portfolio was created with HTML5, CSS, React.JS, and Bootstrap. The site us
 
 The reason I used Nielson usability heuristics is that it creates a pleasant experience reading content. The combination of easy to read content and rapid page rendering with React.JS provides an excellent experience for the user.
 
-![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) 'Upcoming Components'
+![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Upcoming Components
 * Status Page implementation using Cachet.
 * Completion of blog postings. 
 
