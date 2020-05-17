@@ -4,11 +4,9 @@ The reason I used Nielson usability heuristics is that it creates a pleasant exp
 
 ```diff
 - Upcoming Components
-* Status Page implementation using Cachet.
-* Completion of blog postings. 
+   - Status Page implementation using Cachet.
+   - Completion of blog postings. 
 ```
-* Status Page implementation using Cachet.
-* Completion of blog postings. 
 
 # Components
 * Index page
