@@ -67,7 +67,7 @@ export default function Experiences() {
             {" "}
             <Card style={{ width: "20rem", border: "0px" }}>
               <Card.Body>
-                <Card.Title>Software Engineer Intern</Card.Title> <br />
+                <Card.Title>Project Lead/Application Developer</Card.Title> <br />
                 <br />
                 <Card.Subtitle className="mb-2 text-muted">
                   Jun. 2020 - Sept. 2020
