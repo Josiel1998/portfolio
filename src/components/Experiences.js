@@ -73,11 +73,11 @@ export default function Experiences() {
                   Jun. 2020 - Sept. 2020
                 </Card.Subtitle>
                 <Card.Subtitle className="mb-2 text-muted">
-                <a className="mb-2 text-muted" target="_blank" href="https://www.pfizer.com/">United Parcel Service</a>
+                <a className="mb-2 text-muted" target="_blank" href="https://www.pfizer.com/">Pfizer</a>
                 </Card.Subtitle>
-                <Card.Text>Responisble for creating a global notification and communication portal for 
-                  Pfizer’s Veeva CRM and Salesforce.com platforms modeled after trust.veeva.com, 
-                  trust.salesforce.com and Pfizer’s Global Command Center communications
+                <Card.Text>Responsible for gathering user requirements, conducting a technical solutions
+                   analysis to align solution requirements, planning, designing, and deployment of an incident 
+                   communication solution that will be used for communicating infrastructure events. 
 </Card.Text>
               </Card.Body>
             </Card>
