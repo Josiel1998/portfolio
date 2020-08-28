@@ -76,7 +76,7 @@ export default function Experiences() {
                 <a className="mb-2 text-muted" target="_blank" href="https://www.pfizer.com/">Pfizer</a>
                 </Card.Subtitle>
                 <Card.Text>Streamlined the current communication process by providing a centralized 
-                  repository for information and developed a website for the management of communications 
+                  source for information and developed a web app for the management of communications 
                   to reduce overhead costs.
                 </Card.Text>
                 <Card.Link

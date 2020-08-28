@@ -24,7 +24,7 @@ export default function UPS_BPI() {
       <hr />
       <br />
       <div className="main container">
-        <div className="row mb-0 justify-content-center align-items-center">
+        <div className="row mb-0 justify-content-center">
           <div className="col-sm-8 col-md-7 col-lg-8 col-xl-6 mb-0">
             <strong>Overview</strong>
             <h3>Internship with many learning opportunities!</h3>
@@ -73,9 +73,8 @@ export default function UPS_BPI() {
             <div>
               <strong>Exposure</strong>
               <br />
-              - Web Automation
-              <br />
-              <br />- Self taught VBA language
+              <span class="badge badge-pill badge-warning">Web Automation</span>
+              <span class="badge badge-pill badge-warning">Self taught VBA language</span>
             </div>
             <br />
           </div>

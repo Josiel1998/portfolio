@@ -24,7 +24,7 @@ export default function UPS_WFP() {
       <hr />
       <br />
       <div className="main container">
-        <div className="row mb-0 justify-content-center align-items-center">
+        <div className="row mb-0 justify-content-center">
           <div className="col-sm-8 col-md-7 col-lg-8 col-xl-6 mb-0">
             <strong>Overview</strong>
             <h3>People and data</h3>
@@ -68,9 +68,8 @@ export default function UPS_WFP() {
             <div>
               <strong>Exposure</strong>
               <br />
-              - Self taught data visualization
-              <br />
-              <br />- Directing meetings
+              <span class="badge badge-pill badge-warning">Self taught data visualization</span>
+              <span class="badge badge-pill badge-warning">Directing meetings</span>
             </div>
             <br />
           </div>

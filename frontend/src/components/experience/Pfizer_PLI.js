@@ -1,4 +1,5 @@
 import React from "react";
+import img from "../../images/pfizerinternship.jpg";
 
 export default function Pfizer_PLI() {
   return (
@@ -24,40 +25,72 @@ export default function Pfizer_PLI() {
       <hr />
       <br />
       <div className="main container">
-        <div className="row mb-0 justify-content-center align-items-center">
+      <div className="container">
+        <img src={img} className="img-fluid" />
+      </div>
+      <br/>
+        <div className="row mb-0 justify-content-center">
           <div className="col-sm-8 col-md-7 col-lg-8 col-xl-6 mb-0">
             <strong>Overview</strong>
             <h3>Internship with many hats!</h3>
             <div>
-              During this internship experience the Global Commercial Application
-              support team had an unstructured way of communicating sales applications
-              infrastructure outage communications. My role as an intern was to gather all 
-              user requirements, technology requirements, management, and development of the
-              solution. 
+            I had the pleasure of interning at Pfizer Digital within the Commercial, GPD, and WRD Creation 
+            Center and specifically within the Commercial Solution and Service Management team as a Project Lead Intern. 
 
               <br />
               <br />
-              I was able to use many different skills during this internship such as communicating
-              with various key stakeholders to gather user requirements and understand business pain points
-              to developing an application with partners across the globe!
+              This was an interesting and challenging internship assignment as I had to lead a project virtually due to COVID-19. 
+              This experience allowed me to have exposure to software development, project management, vendor management, software 
+              development collaboration with an offshore team, and experience as a business analyst. 
 
               <br />
-              <br />A takeaway from this internship would be the experience of being involved in all of the 
-              Software Development Life Cycle (SDLC) process while playing many different to roles such as 
-              the project lead, project manager, and software developer. Many aspects of the role are to think long
-              term for the solution from a cost perspective - I had to evaluate the cost of purchasing SaaS software compared
-              to building an in-house solution, or leveraging solutions through enterprise business solutions such as SharePoint. 
-              Ultimately, due to the subscription cost of purchasing SaaS subscription and the limitation of the functionality, that technology
-              solution is proven to be costly and risky due to not having ownership of the data. Another avenue that was 
-              review is building a solution from the ground up which will involve high cost for the initial development and a high
-              cost for maintenance. Ultimately SharePoint is a great solution due to the long-term maintenance cost of the solution
-              and being able to find less expensive talent to support the platform in the future. 
               <br />
-              <br /> Ultimately I presented the solution to the key stakeholders and managers. The solution will be able to 
-              provide one communication that is consistent regardless if it is created by colleagues in APAC, EMEA, or AMER. 
-              This internship also allowed me to branch out for other opportunities such as leading the creation of networking
-              groups for more than 100 interns and being able to co-host a panel to educate interns on colleague resource groups. 
+              The Commercial Solution and Service Management team is responsible for sending global and regional communications for 
+              system outages and updates. There were many challenges with the current process from inconsistent communications 
+              (format and content), missing stakeholders, and there was no centralized source for information.
+              <br />
+              <br /> There were many stages to this project, from requirements gathering, technical solution analysis, to software 
+              development of the product solution. First I started gathering requirements by interviewing key stakeholders from application 
+              owners and application support members to understand their opportunities, their process, and understand an improvement that they’d 
+              like to see to their current process. After retrieving all global and regional requirements, I created a document of user and 
+              solution requirements; this allowed us to focus on key functionalities for our solution. 
+              <br/>
+              <br/>
+              Next, it was the step of conducting a technical analysis of possible solutions or technologies. Multiple questions are asked in 
+              this step and I had to create a cost/benefits comparison of possible solutions or technologies. The three solutions in question are the following:
+              <li>Software as a Solution (SaaS)</li>
+              <li>Pfizer internal tech stack</li>
+              <li>SharePoint</li>
 
+              <br/>
+              <br/>
+              All three solutions can accomplish some if not all requirements, but there is a focus on the long-term view of the solution. We had to focus on long term costs such as initial costs of deployment and maintenance costs. The SaaS option has some benefits and some drawbacks; such as the rapid deployment of a solution and no need for resources for maintenance as benefits, but drawbacks of choosing this option are not having ownership of the data, its recurring subscription fee, and its inability to meet all requirements. Next, the Pfizer internal tech stack solution has benefits such as customization of the entire solution and meeting all requirements, but it will take a long time to deploy a solution due to testing that the solution is safe, talent to build the solution is expensive. Finally, our chosen solution was to build our solution on SharePoint. The benefits of choosing this option are for its customization, quick to solution deployment, and the talent needed to support the solution (maintenance) is less expensive than using the internal tech stack. 
+              <br/>
+              <br/>
+              After selecting our solution, SharePoint I used Microsoft Visio to sketch the life cycle of communications and wireframes of the solution we wanted to build. 
+              Afterwards, we onboarded a team of offshore talent in India to join the project to assist with development 
+              on SharePoint. I was involved in both leading the development and managing the project. I used the Agile methodology and led daily sprint 
+              meetings with the offshore team from India. I tracked all project and sprint backlog cards through completion to assure we were on track for 
+              deploying a minimal viable product by the end of sprint 3. We were able to use SharePoint lists for our backend infrastructure, Microsoft 
+              PowerApps for customization of our forms, and Microsoft Power Automate to establish workflows for releasing email receipts and confirmations. 
+              I led the charge in creating a custom web part using the SDFx Framework which involved using Typescript, jQuery, HTML/SCSS, and parsing through 
+              many APIs. We were able to successfully render our data for users in an optimized fashion by implementing ODATA into out HTTP requests, thus creating 
+              an attractive UI/UX using bootstrap and material design with minimal load times. 
+              <br/>
+              <br/>
+              Ultimately the minimal viable product was deployed and participated in a series of demos and participated in user acceptance testing to assure the solution
+               is stable and provided a series of quality control. 
+               <br/>
+               <br/>
+               This internship provided exceptional experience with the Software Development Life Cycle (SDLC), management if offshore vendors, learning a new platform, 
+               and programming languages. The solution was able to successfully perform CRUD operations for creating communications and posting them via an approval process. 
+               The communications were able to be successfully created, planned, updated, and resolved. Also, the solution provided a dynamic template experience for users that
+                allowed for a similar look and feel of all communications.
+                <br/>
+                <br/>
+                After my internship, the team will continue with the development of the project and will implement phase 2 functionality due to the success of the minimal viable product. 
+                Phase 2 includes a subscription-based model for reducing the overhead of tracking missing stakeholders from communications, a calendar view, and search functionality for historical 
+                communications. 
             </div>
             <br />
           </div>
@@ -68,9 +101,11 @@ export default function Pfizer_PLI() {
               <span class="badge badge-pill badge-primary">SharePoint</span>
               <span class="badge badge-pill badge-primary">SPFx Framework</span>
               <span class="badge badge-pill badge-primary">Typescript</span>
+              <span class="badge badge-pill badge-primary">jQuery</span>
               <span class="badge badge-pill badge-primary">HTML</span>
-              <span class="badge badge-pill badge-primary">CSS</span>
+              <span class="badge badge-pill badge-primary">SCSS</span>
               <span class="badge badge-pill badge-primary">Visio</span>
+              <span class="badge badge-pill badge-primary">Microsoft Teams</span>
               <br />
               <br />
             </div>
@@ -83,13 +118,12 @@ export default function Pfizer_PLI() {
             <div>
               <strong>Exposure</strong>
               <br />
-              - SDLC
-              <br />
-              <br />
-              - Self taught Typescript
-              <br />
-              <br />
-              - SharePoint Custom Web Part Development
+              <span class="badge badge-pill badge-warning">SDLC</span>
+              <span class="badge badge-pill badge-warning">Self taught Typescript</span>
+              <span class="badge badge-pill badge-warning">SharePoint Custom Web Part Development</span>
+              <span class="badge badge-pill badge-warning">Vendor Management</span>
+              <span class="badge badge-pill badge-warning">Managing a team of developers</span>
+
             </div>
 
             <br />
@@ -113,7 +147,7 @@ export default function Pfizer_PLI() {
             <div>
               The exposure I had during this opportunity was being able to manage the business side
               of technology and being able to manage technical assets. This was a great experience overall
-              due to being exposed to different parts of what it takes to develop a solution. 
+              due to being exposed to different parts of what it takes to develop a solution from scratch. 
 
             </div>
           </div>
