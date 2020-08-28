@@ -1,32 +1,33 @@
 {
   "files": {
     "main.css": "/static/css/main.04b48b6c.chunk.css",
-    "main.js": "/static/js/main.911ec681.chunk.js",
-    "main.js.map": "/static/js/main.911ec681.chunk.js.map",
+    "main.js": "/static/js/main.f2249ed4.chunk.js",
+    "main.js.map": "/static/js/main.f2249ed4.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2dd8c1cc.js",
     "runtime-main.js.map": "/static/js/runtime-main.2dd8c1cc.js.map",
     "static/css/2.83767612.chunk.css": "/static/css/2.83767612.chunk.css",
-    "static/js/2.2dbde780.chunk.js": "/static/js/2.2dbde780.chunk.js",
-    "static/js/2.2dbde780.chunk.js.map": "/static/js/2.2dbde780.chunk.js.map",
+    "static/js/2.37b1b92d.chunk.js": "/static/js/2.37b1b92d.chunk.js",
+    "static/js/2.37b1b92d.chunk.js.map": "/static/js/2.37b1b92d.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.939d04b649f33becaece9380ccb66e96.js": "/precache-manifest.939d04b649f33becaece9380ccb66e96.js",
+    "precache-manifest.0dd9f08939e8d3f0352b9efd7f634a44.js": "/precache-manifest.0dd9f08939e8d3f0352b9efd7f634a44.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.83767612.chunk.css.map": "/static/css/2.83767612.chunk.css.map",
     "static/css/main.04b48b6c.chunk.css.map": "/static/css/main.04b48b6c.chunk.css.map",
-    "static/js/2.2dbde780.chunk.js.LICENSE.txt": "/static/js/2.2dbde780.chunk.js.LICENSE.txt",
+    "static/js/2.37b1b92d.chunk.js.LICENSE.txt": "/static/js/2.37b1b92d.chunk.js.LICENSE.txt",
     "static/media/3081672.jpg": "/static/media/3081672.b9268c42.jpg",
     "static/media/Result_Video.gif": "/static/media/Result_Video.a23fa16c.gif",
     "static/media/Resume.pdf": "/static/media/Resume.2380ee4a.pdf",
     "static/media/Structure.png": "/static/media/Structure.61ad5329.png",
     "static/media/alexaintegration.png": "/static/media/alexaintegration.8329e861.png",
     "static/media/avt-lane-detecton.png": "/static/media/avt-lane-detecton.1578a88e.png",
+    "static/media/pfizerinternship.jpg": "/static/media/pfizerinternship.92771f70.jpg",
     "static/media/sky.jpg": "/static/media/sky.ca71657c.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.2dd8c1cc.js",
     "static/css/2.83767612.chunk.css",
-    "static/js/2.2dbde780.chunk.js",
+    "static/js/2.37b1b92d.chunk.js",
     "static/css/main.04b48b6c.chunk.css",
-    "static/js/main.911ec681.chunk.js"
+    "static/js/main.f2249ed4.chunk.js"
   ]
 }
