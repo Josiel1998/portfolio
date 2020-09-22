@@ -13,24 +13,25 @@ export default function Experiences() {
       <hr />
       <div className="main container">
         <div className="row">
-          <div className="col">
+        <div className="col">
+            {" "}
             <Card style={{ width: "20rem", border: "0px" }}>
               <Card.Body>
-                <Card.Title>Business Process Improvement Intern</Card.Title>{" "}
+                <Card.Title>Project Lead Intern</Card.Title> <br />
                 <br />
                 <Card.Subtitle className="mb-2 text-muted">
-                  Jan. 2018 - Aug. 2018
+                  Jun. 2020 - Aug. 2020
                 </Card.Subtitle>
                 <Card.Subtitle className="mb-2 text-muted">
-                  <a className="mb-2 text-muted" target="_blank" href="https://www.ups.com/us/en/Home.page?">United Parcel Service</a>
+                <a className="mb-2 text-muted" target="_blank" href="https://www.pfizer.com/">Pfizer</a>
                 </Card.Subtitle>
-                <Card.Text>
-                  Automated multiple existing internal processes through
-                  development to maximize the efficiency of process time.
+                <Card.Text>Streamlined the current communication process by providing a centralized 
+                  source for information and developed a web app for the management of communications 
+                  to reduce overhead costs.
                 </Card.Text>
                 <Card.Link
                   className="heading-block"
-                  href="/#/experience/ups_intern"
+                  href="/#/experience/pfizer_PLI"
                 >
                   More Info
                 </Card.Link>
@@ -63,25 +64,25 @@ export default function Experiences() {
               </Card.Body>
             </Card>
           </div>
+
           <div className="col">
-            {" "}
             <Card style={{ width: "20rem", border: "0px" }}>
               <Card.Body>
-                <Card.Title>Project Lead Intern</Card.Title> <br />
+                <Card.Title>Business Process Improvement Intern</Card.Title>{" "}
                 <br />
                 <Card.Subtitle className="mb-2 text-muted">
-                  Jun. 2020 - Aug. 2020
+                  Jan. 2018 - Aug. 2018
                 </Card.Subtitle>
                 <Card.Subtitle className="mb-2 text-muted">
-                <a className="mb-2 text-muted" target="_blank" href="https://www.pfizer.com/">Pfizer</a>
+                  <a className="mb-2 text-muted" target="_blank" href="https://www.ups.com/us/en/Home.page?">United Parcel Service</a>
                 </Card.Subtitle>
-                <Card.Text>Streamlined the current communication process by providing a centralized 
-                  source for information and developed a web app for the management of communications 
-                  to reduce overhead costs.
+                <Card.Text>
+                  Automated multiple existing internal processes through
+                  development to maximize the efficiency of process time.
                 </Card.Text>
                 <Card.Link
                   className="heading-block"
-                  href="/#/experience/pfizer_PLI"
+                  href="/#/experience/ups_intern"
                 >
                   More Info
                 </Card.Link>
